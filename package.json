@@ -1,0 +1,40 @@
+{
+  "name": "mongo-dot-notation-tool",
+  "version": "1.0.0",
+  "description": "Tool for mongo dot-notation objects",
+  "main": "index.js",
+  "directories": {},
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha test.js"
+  },
+  "keywords": [
+    "mongo",
+    "mongodb",
+    "dotnotation",
+    "dot-notation",
+    "convert",
+    "converter",
+    "encode",
+    "decode"
+  ],
+  "author": {
+    "email": "i@zbit.name",
+    "name": "Alexey Kheben",
+    "url": "https://github.com/zbitname"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:aggregion/mongo-dot-notation-tool.git"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "2.8.0",
+    "eslint-config-google": "0.5.0",
+    "mocha": "^2.0.0",
+    "mongoose": "^4.0.3"
+  },
+  "dependencies": {}
+}

@@ -1,0 +1,14 @@
+{
+  "extends": "google",
+  "env": {
+    "node": true
+  },
+  "rules": {
+    "max-len": ["error", 100, 2],
+    "valid-jsdoc": ["error", {
+      "requireReturnDescription": false
+    }],
+    "no-lonely-if": 0,
+    "new-cap": 0
+  }
+}

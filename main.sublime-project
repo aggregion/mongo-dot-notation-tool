@@ -1,0 +1,39 @@
+{
+	"build_systems":
+	[
+		{
+			"cmd":
+			[
+				"./node_modules/.bin/eslint ./**/*.js"
+			],
+			"name": "[mongo dot-notation tool] ESLint",
+			"variants":
+			[
+				{
+					"name": "Windows",
+					"shell_cmd":
+					[
+						"./node_modules/.bin/eslint.cmd ./**/*.js"
+					]
+				},
+				{
+					"cmd":
+					[
+						"./node_modules/.bin/eslint ./**/*.js"
+					],
+					"name": "linux"
+				}
+			]
+		}
+	],
+	"folders":
+	[
+		{
+			"path": "."
+		}
+	],
+	"settings":
+	{
+		"tab_size": 2
+	}
+}
