@@ -1,5 +1,5 @@
 {
-  "name": "@aggregion/mongo-dot-notation-tool",
+  "name": "mongo-dot-notation-tool",
   "version": "1.0.0",
   "description": "Tool for mongo dot-notation objects",
   "main": "index.js",
