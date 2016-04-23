@@ -1,4 +1,8 @@
-# Mongo dot-notation tool [![Build Status](https://travis-ci.org/aggregion/mongo-dot-notation-tool.svg?branch=develop)](https://travis-ci.org/aggregion/mongo-dot-notation-tool)
+# Mongo dot-notation tool
+> <sup>Master</sup> [![Build Status](https://travis-ci.org/aggregion/mongo-dot-notation-tool.svg?branch=master)](https://travis-ci.org/aggregion/mongo-dot-notation-tool)
+
+> <sup>Develop</sup> [![Build Status](https://travis-ci.org/aggregion/mongo-dot-notation-tool.svg?branch=develop)](https://travis-ci.org/aggregion/mongo-dot-notation-tool)
+
 Convert dot-notation to simple JS object and back.
 
 _Install_
