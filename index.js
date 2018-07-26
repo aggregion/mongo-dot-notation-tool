@@ -3,7 +3,7 @@
  * @return {Boolean}
  */
 function isObject(value) {
-  return value && value.toString() === '[object Object]';
+  return value && Object.prototype.toString(value) === '[object Object]';
 }
 
 /**
