@@ -5,7 +5,7 @@ const toString = Object.prototype.toString;
  * @return {Boolean}
  */
 function isObject(value) {
-  return toString(value) === '[object Object]';
+  return toString.call(value) === '[object Object]';
 }
 
 /**
