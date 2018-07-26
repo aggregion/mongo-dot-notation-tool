@@ -1,9 +1,11 @@
+const toString = Object.prototype.toString;
+
 /**
  * @param {*} value Value
  * @return {Boolean}
  */
 function isObject(value) {
-  return value && value.toString() === '[object Object]';
+  return toString.call(value) === '[object Object]';
 }
 
 /**
